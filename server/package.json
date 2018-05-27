@@ -1,0 +1,51 @@
+{
+  "name": "meanstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Angular 2 and Node.JS implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node ./bin/www",
+    "dev": "nodemon --inspect ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "compression": "^1.7.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.6.1",
+    "es6-promise": "^4.2.4",
+    "express": "~4.15.5",
+    "express-https-redirect": "^1.0.0",
+    "express-session": "^1.15.6",
+    "forcedomain": "^1.0.0",
+    "helmet": "^3.12.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.11",
+    "morgan": "~1.9.0",
+    "node-express-crud-router": "^1.2.1",
+    "nodemailer": "^4.6.4", 
+    "serve-favicon": "~2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarvardDCENode/assignment-4-express-routing-mongodb-mongoose-jahskee.git"
+  },
+  "keywords": [
+    "cscie31",
+    "assignment4"
+  ],
+  "author": "Jaizon Lubaton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarvardDCENode/assignment-4-express-routing-mongodb-mongoose-jahskee/issues"
+  },
+  "homepage": "https://github.com/HarvardDCENode/assignment-4-express-routing-mongodb-mongoose-jahskee#readme",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "yarn": "^1.6.0"
+  }
+}
